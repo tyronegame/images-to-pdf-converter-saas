@@ -19,6 +19,23 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <FileProvider>{children}</FileProvider>
+        <!-- Default Statcounter code for Imagespdf
+https://www.imagestopdfconverter.com -->
+<script type="text/javascript">
+var sc_project=13077885; 
+var sc_invisible=1; 
+var sc_security="d46f8415"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="website
+statistics" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13077885/0/d46f8415/1/"
+alt="website statistics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
       </body>
     </html>
   );
